@@ -9,6 +9,8 @@
 
 The same project is built with each of these techniques. You'll find one folder for each.
 
+**Note:** i'm just adding a copy of one of the HTML files in the root for the sake of deploying the page on github.
+
 ### Screenshot
 
 ![screenshot](./images/screenshot.png "screenshot")

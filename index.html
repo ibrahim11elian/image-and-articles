@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- main css sheet -->
+    <link href="./css/styles.css" rel="stylesheet">
+
+    <!-- page icon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- page title -->
+    <title>Image And Alticles</title>
+</head>
+
+<body>
+
+    <header class="masthead">
+        <h1>What are you interested in today?</h1>
+
+        <div class="site-container">
+            <form id="search-form" action="#">
+                <label for="search-keyword" class="visuallyhidden">What are you interested in today?</label>
+                <input id="search-keyword" type="text" name="search-keyword" placeholder="e.g. Android" required>
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </header>
+
+
+    <div class="site-container">
+        <!-- response section for content that get back from api -->
+        <div id="response-container">
+        </div>
+    </div>
+    <!-- start loading section for animation -->
+    <div class="loading centering">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- end loading -->
+    <script src="./async-w-fetch/app.js"></script>
+</body>
+
+</html>
